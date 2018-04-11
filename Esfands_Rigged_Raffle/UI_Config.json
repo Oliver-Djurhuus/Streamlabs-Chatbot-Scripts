@@ -1,0 +1,27 @@
+{
+  "output_file": "settings.json",
+  "entry_cost": {
+    "type": "numberbox",
+    "value": 2,
+    "label": "Entry cost",
+    "tooltip": "The retbull cost of joining the raffle",
+  },
+  "reward": {
+    "type": "numberbox",
+    "value": 10,
+    "label": "Reward",
+    "tooltip": "The amount of retbulls the winner gets",
+  },
+  "duration": {
+    "type": "numberbox",
+    "value": 180,
+    "label": "Duration",
+    "tooltip": "The length of the raffle",
+  },
+  "rigged": {
+    "type": "checkbox",
+    "value": false,
+    "label": "Rigged mode",
+    "tooltip": "Let's just call it an accident"
+  }
+}
